@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Contact Details</h1>
+    <form action="mailto:tejasbobade8530@gmail.com" method="post" enctype="text/plain">
+        <label for="email">Email ID :</label>
+        <input  type="email" id="email" pattern=".+@globex\.com" size="30" required placeholder="name123@gmail.com">
+        <table>
+            <tr>
+                <td>
+                    <input type="text" placeholder="First Name">
+                </td>
+                <td>
+                    <input type="text" placeholder="Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" placeholder="Phone Number">
+                </td>
+                <td>
+                    <input type="text" placeholder="Company Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" placeholder="Number of Employees">
+                </td>
+                <td>
+                    <input type="text" placeholder="Postal Code">
+                </td>
+            </tr>
+        </table>
+        <textarea name="intro" id="intro" cols="30" rows="10" placeholder="Tell us about yourself."></textarea><br>
+        <input type="submit" name="form" placeholder="Submit Form">
+
+    </form>
+    
+</body>
+</html>
